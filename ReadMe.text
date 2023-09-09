@@ -1,0 +1,30 @@
+# Edge Test
+
+## Prerequisites
+
+Before running the tests, make sure you have the following installed:
+
+- [Microsoft Edge WebDriver](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/)
+- [Python](https://www.python.org/downloads/)
+- Selenium: You can install it using pip:
+  ```shell
+  pip install selenium
+
+Running the Tests
+
+1.Clone this repository to your local machine.
+2.Navigate to the test directory: Replace 'D:\VSCode\Test1' with the path to your project directory.
+```shell
+cd D:\VSCode\Test1
+Run the Edge test script:
+```shell
+python edge_test1.py
+
+What's Tested
+The following elements are tested in the Edge test:
+
+1.Menu Button
+2.User Button
+3.Cart Button
+4.Catalog Button
+5.Voice Input Button in the Search Bar
